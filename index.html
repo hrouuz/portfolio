@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Professional Portfolio</title>
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/OIP.77yi9UGzaSxVButgk8EujQHaE8?w=282&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" />
+</head>
+<body>
+    <header id="index">
+        <h1>Welcome to My Professional Portfolio</h1>
+        <p>This site showcases my background, skills, projects, and how to get in touch with me.</p>
+        <nav>
+            <ul>
+                <li><a href="#index">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Enjoy some background music while browsing:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Mahrez lassoued , I am an 21 years old dedicated web developer with a strong passion for creating responsive, user-friendly websites and applications. I enjoy transforming concepts into polished digital experiences using clean code and modern tools. My focus is on building functional, accessible, and visually appealing interfaces. I am also committed to continuous learning and staying up-to-date with industry trends.</p>
+            <img src="image/Capture d'écran 2024-06-04 233947.png" alt="Portrait of the developer" width="300" />
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Below is a summary of my technical skills and a video showcasing a brief overview of my experience.</p>
+            <ul>
+                <li><strong>HTML</strong> – Structuring content and building the foundation of web pages.</li>
+                <li><strong>CSS</strong> – Designing and styling web pages for modern, responsive layouts.</li>
+                <li><strong>JavaScript</strong> – Adding interactivity and dynamic behaviors to websites.</li>
+                <li><strong>APIs</strong> – Integrating third-party services and handling data from external sources.</li>
+                <li><strong>Database Management</strong> – Organizing and maintaining data with tools like MySQL and MongoDB.</li>
+            </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HpM2meAzzWE" 
+                title="Resume Presentation" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+            <p>You can download my full resume in PDF format <a href="resume.pdf" target="_blank">here</a>.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the key projects I've developed. Click to preview them within the page.</p>
+            <ul>
+                <li><a href="projet1.html" target="Frame">Project 1</a> – A task management app with CRUD functionality and responsive UI.</li>
+                <li><a href="projet2.html" target="Frame">Project 2</a> – A personal portfolio built to showcase my technical and design skills.</li>
+                <li><a href="projet3.html" target="Frame">Project 3</a> – A fully-featured e-commerce platform with shopping cart and product filtering.</li>
+            </ul>
+            <iframe name="Frame" width="100%" height="400" ></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to reach out, feel free to email me at <a href="mailto:hrouzito@gmail.com">hrouzito@gmail.com</a>. I'm always open to new ideas, collaborations, and professional opportunities.</p>
+        </section>
+
+        <form action="" method="post">
+            <p>Use the form below to send me a message:</p>
+            <div>
+                <label for="name">First Name</label><br />
+                <input type="text" id="name" name="name" placeholder="Your First Name" required />
+            </div>
+            <br />
+            <div>
+                <label for="Lastname">Last Name</label><br />
+                <input type="text" id="Lastname" name="Lastname" placeholder="Your Last Name" required />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email</label><br />
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <br />
+            <div>
+                <label for="Number">Phone Number</label><br />
+                <input type="tel" id="Number" name="Number" placeholder="Your Phone Number" />
+            </div>
+            <br />
+            <div>
+                <label for="message">Message</label><br />
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" ></textarea>
+            </div>
+            <br />
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+        <br />
+        <a href="#index">Back to Top</a>
+    </footer>
+</body>
+</html>
+
